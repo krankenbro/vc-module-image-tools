@@ -23,7 +23,6 @@ jobs:
         USER: ${{ env.GITHUB_USER }}
         REPOSITORY: "vc-module-image-tools"
         DEVELOPMENT_BRANCH: "dev"
-        GHA_DEPLOYMENT_FOLDER: ".github/workflows"
         COMMIT_MESSAGE: "Deploy new Github Action"
         GHA_DEPLOY_BRANCH_NAME: "dev-workflow"
 
@@ -34,6 +33,5 @@ jobs:
         USER: ${{ env.GITHUB_USER }}
         REPOSITORY: "vc-module-pricing"
         DEVELOPMENT_BRANCH: "dev"
-        GHA_DEPLOYMENT_FOLDER: ".github/workflows"
         COMMIT_MESSAGE: "Deploy new Github Action"
         GHA_DEPLOY_BRANCH_NAME: "dev-workflow"
