@@ -32,7 +32,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
         USER: ${{ env.GITHUB_USER }}
-        REPOSITORY: "vc-module-image-tools"
+        REPOSITORY: "vc-module-pricing"
         DEVELOPMENT_BRANCH: "dev"
         GHA_DEPLOYMENT_FOLDER: ".github/workflows"
         COMMIT_MESSAGE: "Deploy new Github Action"
