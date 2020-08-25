@@ -18,11 +18,8 @@ jobs:
       
 
     - name: vc-module-pricing
-      uses: MikeHamilton-RW/deploy-common-actions@v1.0
+      uses: VirtoCommerce/vc-github-actions/deploy-workflow@dev
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
         USER: ${{ env.GITHUB_USER }}
         REPOSITORY: "vc-module-pricing"
-        DEVELOPMENT_BRANCH: "dev"
-        COMMIT_MESSAGE: "Deploy new Github Action"
-        GHA_DEPLOY_BRANCH_NAME: "dev-workflow"
