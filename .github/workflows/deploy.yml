@@ -20,6 +20,6 @@ jobs:
     - name: vc-module-pricing
       uses: VirtoCommerce/vc-github-actions/deploy-workflow@dev
       env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
         USER: ${{ env.GITHUB_USER }}
         REPOSITORY: "vc-module-pricing"
